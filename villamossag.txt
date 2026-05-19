@@ -108,6 +108,24 @@ Az áramkör módosítható is a szimulátorban.
 ## Keresztreteszelés
 
 
+
+# Észrevételek, javaslatok, kérdések
+
+Észrevételeket, javaslatokat, kérdéseket szívesen várok az 
+[szp0530@gmail.com](mailto:szp0530@gmail.com) címre.
+
+Szakszon Péter
+
+
+# Forráskód
+
+A [weboldal forráskódja](https://github.com/villamossag/villamossag.github.io) 
+megtalálható a [https://github.com/villamossag/villamossag.github.io](https://github.com/villamossag/villamossag.github.io) címen.
+
+A weboldal forráskódjának [generáláshoz használt forráskód](https://github.com/villamossag/villamossag) 
+megtalálható [https://github.com/villamossag/villamossag](https://github.com/villamossag/villamossag) a címen.
+
+
 <!---
 
 # Motorvédő kapcsolások
