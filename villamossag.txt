@@ -1,0 +1,133 @@
+---
+title: Villamosság szimulációk
+#author: Szakszon Péter
+#date: 2026-03-19
+maxwidth: 48em;
+margin-left: 1em;
+margin-right: 1em;
+margin-top: 1em;
+margin-bottom: 2em;
+header-includes: |
+  <style>
+  header {
+    margin-bottom: 1em;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+  
+  figure {
+    margin: 0;
+    margin-bottom: 2em;
+  }
+
+  #TOC a {
+    display: inline-block;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+  }
+
+  ol a {
+    display: inline-block;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+  }
+
+  .sitenav .navlink {
+    display: inline-block;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+  }
+  </style>
+---
+
+# Mágneskapcsoló kapcsolások
+
+1. [Öntartó kapcsolás (kikapcsolás magasabb rendű)]
+1. [Öntartó kapcsolás (bekapcsolás magasabb rendű)]
+1. [Kétkezes indítás]
+1. [Vészleállítás több helyről]
+1. [Párhuzamos működtetés]
+1. [Keresztreteszelés]
+
+## Öntartó kapcsolás (kikapcsolás magasabb rendű)
+
+[Kapcsolás megnyitása Falstad szimulátorban](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3AWAnC1b0DYQGYCs0NIAmBDQjAdkgoqQmwpFxAWyYFMBaMMAKAGcWADkjgECYaLAUsRcCAAuAJwCu7XgiLMEInLjk7RWrKIDSUaHM4x4xbKn3wkuFCOY25RUTbDMwXMDlvKA0iLAQwLDwDSJBjFhBzGz9bOHABFliwcUysJFkoRVV1AHdJMQkIrGyJSF4ANzjIIRwMFq8W-MKIXFFsLULvaFxeAA8WIiRwAfEIQJaJbMSASzGWXDYiCgWqOKEIRYkAQT5xhFx6exY2nE0EpaOiNbAhapuwJDZpA7EQABlnkJNrsPsC2IcQAA5Nb2YELZp7H5LMDYGFIOTYBCiLGMTHg37ZXgvCAdVotfp9G59OCweDYSBIIH5T6LNJEekWSAQHxrLQSXa4C4gCj4pamZYAawAhgAHADG-AA9gAbACH-AAOvwALZSgDmUv4UoARsatUp2AA7AAmgEdALUAN8tCilSgUAGetdL5Uq1fxeGVSV1oiAunVxiQSSg9mx6QZfn9VdqZVLeHqmuSbqTsEJaiEyoROuFYmHQlF9HoMRX4hIkrAUql0uNsC3bvQsbdKr8ns28HEaLdPLoIXxGoWySBx2HCh2SIMLCN0+PsDdl7nBmsMNgSZNJ0C4v17hISFqAGpagAiAGFnhyvFMXlMiIEjwfIGetUcb2UQ8Hq7gTADStgJDFcWjqH8KzAnAvAnCDyhDQw4KApDoOXKkUKyHIqjiACQmNHBfDiQgmBzW5wMw8sYiidd4JwnMJAAvpaKApicHXNiSG8ViSK48o+Lo3Q+KQ+JwxwSBKmIFgGWk7RfgAWVVPVLXYfhvQVFV3VCWNdhzKYc1jXp83KaRwl0D4gjWfQ5koUiWmkbFfgAIVKEz0X4js6iAA).
+A szimulátorban a Be és Ki nyomógombokra lehet interaktívan kattintani az egérmutatóval. 
+Az áramkör módosítható is a szimulátorban.
+
+![Alapállapot](images/magneskapcs-ontarto-ki-magas-1.gif)
+
+![Bekapcsolás](images/magneskapcs-ontarto-ki-magas-2.gif)
+
+![Kikapcsolás](images/magneskapcs-ontarto-ki-magas-3.gif)
+
+
+## Öntartó kapcsolás (bekapcsolás magasabb rendű) 
+
+[Kapcsolás megnyitása Falstad szimulátorban](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3AWAnC1b0DYQGYzQWEpBhpAEwAcArBkgmThSFSAtswKYC0YYAUAGdWFSOFLDRhBgwgAXAE4BXDn3osEInNiwbRZBKNEBpKNAZcY8ctlRUy8JFRQiWl6YdhgWYbmAaGoVTIdMCxsbVZQkH1RBBATS28rOHBBSKwpdLE9KBAFZT4Adwlskr8mSD4AN2jIJmw7WqYkLElmUWwyV1yYKj4AD2YwdjAKBipsSWpWcDiAIRVB+gyAdiRWbCZRhjiwOKMASwHWKhXojAgEFbjguN24gEF+JaoWTruVhk6z+5AHsmOowyGC2SBGK0usxAABlARR2GQVpIwdEVuxfgA5Y42aQYHaQM7BdRQ4bYpBfMjogk4YIzPazPijCD2eqNTodRodOCweC4chUSDkqi7FKUjyQCCWZ7RYUgJHMV5y9FQhYAawAhgAHADGAgA9gAbACHAgAOgIALbqgDm6oE6oARg7zfIOAA7AAmgEdAc0AN7dsnV8lkAGfzRqdfrjQIik0QC0cI0E5VBvpmShovCcOQ6XFoUaLZr1XxrXGGu56hQ4oZY6RmiEsMmgmE2RFy9EDDMErAkslUoNwmdOuxsAg4p0dFCAQOIsEOmxzsr6fwanXEww18ncp39D1TH1S2v20eqz1jhhcNEyOsQQjOrmO+aAGrmgAiAGFAZM46N1mReA+YrPuaDyfsU7YJu2MSBOBrYtl8nKxu2yH2OuMElOEOiaO2lTFLoaFHoheFRJkBBYNBlQOjg9L6OM2BDt+uFZJhzGnkxZGMHENAdGxsbcZxzDiCy6H8cJ+HCexmikZoEmxuJdQlBRxzXusBixJAdyQEucQALJGtabocAIEa6oaIZBCOtCMGEYxaJKckkZQWShDWxEZE5+HlOhHFeRxTZAA).
+A szimulátorban a Be és Ki nyomógombokra lehet interaktívan kattintani az egérmutatóval. 
+Az áramkör módosítható is a szimulátorban.
+
+![Alapállapot](images/magneskapcs-ontarto-be-magas-1.gif)
+
+![Bekapcsolás](images/magneskapcs-ontarto-be-magas-2.gif)
+
+![Kikapcsolás](images/magneskapcs-ontarto-be-magas-3.gif)
+
+
+## Kétkezes indítás
+
+[Kapcsolás megnyitása Falstad szimulátorban](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3AWAnC1b0DYQGYCs0NIAmBDQjAdkgoqQmwpFxAWyYFMBaMMAKAGcWADkjgECYaLAUsWCABcATgFd2IAELteCIswQicuIpJC6sogNJRoxzjHjFsqI-CS4UI5veNFR9sMxgXGDGflDaRFgIYFh4xtFYZiwgVvaBDnDgAiwxYhIJIEiJUCBKqrwA7iZg4jlytZC8AG6mkEI4GO2+7UUlELii2LolftC4vAAeLNhSw+LGIe0SNSkAlpMsuGxEFEtUpkIQyxIAgnxTCLj0TiydODrJKydEG2BCcndgSGzSR2IgABlXkJtvsvqC2McQAA5DZOUFLNoHP4rMDYOFIYzYBCiHGMbGQ-41XhvCDdDrtIaDO6DOCweBDEFCLaQXByTJEGbWSAQfxw7CyKLYdoYJCPCQWACX8gA1uwAF7sfgAHX4qwAdgATAC38gAh-xKq0erEjIVzBsSGSUAc2DN4v8AXqALYABwAhrwAObGim+4USPxGwgmurm8I6U1Ys1xUxs5KpWDpDJZKbYdP3eg4+75f4vNN4Uw0e4+AxQvgtEN+qu9MLZkgjazjH1VgUipEBkYbDDYMlEMWdbZDcWmBCqgBqqoAIgBhV5c3xit5ioghEecyAT1UnOdVWO9WNJRp7mOnrE0o2xts4Xx+48mWP6ante9P6sdi9VAo1fK5I+8AAjHAAlMQgmGFe4XyNApH1yTtXzgoQJDZQYkPCKoUJwNDMJIIMMLA3CTEI18DEIt9-ymfsxRxXFIHySBCRWABZPUvXVJUZXdV0AGN+AAewAGwAZ4iO0KHoIQxU7PAg0EN8vniUjszkUoVDUTRoIMaQoi0zFwiAA).
+A szimulátorban a Be és Ki nyomógombokra lehet interaktívan kattintani az egérmutatóval. 
+Az áramkör módosítható is a szimulátorban.
+
+![Alapállapot](images/magneskapcs-ketkezes-inditas-1.gif)
+
+![Bekapcsolás](images/magneskapcs-ketkezes-inditas-2.gif)
+
+![Kikapcsolás](images/magneskapcs-ketkezes-inditas-3.gif)
+
+
+## Vészleállítás több helyről
+
+[Kapcsolás megnyitása Falstad szimulátorban](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3AWAnC1b0DYQGYCs0NIAmBDQjAdkgoqQmwpFxAWyYFMBaMMAKAGcWADkjgkRYaKIkQEiABcATgFd2vBEWYIROXBO1TcWUQGko0CZxjxi2VHvhJcKEc2sSio62GZguYCS8odSIsBDAsPH0I2SMWEDNrXxs4cAEWGLAEBAysJCxAkCVVXgB3STForDBxYIA3WUghHAxmz2b8qHAmUWxNLq9oXF4ADxYiJHB+7UYA5pyshIBLAB1+AAp5AEO6gHsAGyWASlGWXDYiCnmqWSEIBZyAQT4xhFx6OxZWnA14xceiKcwEJqt8amwwBR7uAcgAZIFCC43cGyChsB4gABypzsSPmTVu0MWYGwONq2AQokpjAp6JhMN4wIg7RazT6vW+vTgsHg2D5FFCaOSUmwg0gEG8OICIChXywFByGIAagBL-gAL327C2+32AFvtvw1vIAG8AIzNawAFux9gBPRSARUB9mVGh1InoQJ1IKcSMyULc2KL9PTYVsALYABwAhrwAOZu1mJ7BCHJeV2Ed25L3GEIeiRRXQeOI5RKwYU2NJjPlB8I-XrZP45QHVvComm-Ig6DF8BqZpP971dSmyNMDIbxkD97DfaepganDDYZkTKeI2R9JujtZKtYAEQAwkDRY1JsDJkRpRiiKKd2tHkfyoXOoXNLmn57C1-Oa7v2zPEmPrlAYRYVDOzRAWBs4EuBwTAZktThAUcQ+maOA+LIhBMCmPwQa6SGgQRKZpvhMTEUwWHkZBRi9PONGjum5T0SQVI6CxcEVOxIFvsE1aQIqxAsJAkyUlo9IALJbHGAB27D8AA1tGkYAMb8AcADPIRBjcKaTCmQa4OmYzvMwl4QOcHiLBiABCajAWxMjcSOPqCARNRVDCzZdMUaivF24ACsIZ4UGJiwmKsGzySa6q2scvBAA).
+A szimulátorban a Be és Ki nyomógombokra lehet interaktívan kattintani az egérmutatóval. 
+Az áramkör módosítható is a szimulátorban.
+
+
+## Párhuzamos működtetés
+
+[Kapcsolás megnyitása Falstad szimulátorban](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3AWAnC1b0DYQGYCs0NIAmBDQjAdkgoqQmwpFxAWyYFMBaMMAKAGcQhABwgSkIZFFgkRMeBAAXAE4BXdrwRFmCYRLxzdEohTkSA0lGhzOMeMWypcReElwo9zO3JdXIYZjAuMDMoKE0iLAQwLAMWGLFcKJBLO0D7OHABSWkEBByQJCxQlXVeADcxKRwMURdRIrCIXH1tMIkYXF4ADyZcRhC2foHIlnB88wBLIh6WXGYiYUYEUzEkCXywfIBBPl6EXDZsZBYqHGcxrZBtmd6wYSwY6SQ2MAoITfyAGVn7thMJDJ-hQ2J8QAA5WaOBZLeLGdaXTbYKEvHAnBDVOJgra8e4Qeo1UTYXzYWphbBwWDwbCDQ5LYSbTJECl+CB2PZVLBkGoSDBIREgAAKAEPlAALVQALwAhgBbAD2-AAOvxZYBHQAA1gA3gAminYigAl-xeAB3KoNWIXRqQWYkfEoMTCI7EAVfYWygAO0t4AHMLYSA9gGe0zUIkoUudUbRErXI4nFtMlUrB0hksr1sMG0fzjswseMxFDs4tGHm1htC3xKhgI6TRLWsDawhixPkOlYuv7G4Ge8H2+FerV8szmCDitmwSQVQA1FUAEQAwr8WS5+fd+UQQgLmZBZyrtsvzXFGomI7bjxcE1eyRfzvGycT9Lew0Z7yw9IG72-6+HYi+ACMcCIHwyVwA5ziwb8EixGCQ2g2IQySfR4LDZCcCQwhEigtCsKTD9jHPO1hFEDEiVRaIPkLABZYVfQAO3YfgNWlT0AGN+HlAAbABniIjhBHBTwec5GFtQQ33EAjwFkeQIFKDQJM-GRDGUvJ5AkBTZmQCA3jkXAeHACgdELKY+HNN8tnyERxnbbSERA5orhA-IwQAIXYczpJU+JHlkhCZMMBJ8NtXp5nxECmGMsQ2nc9gZgs5TZJsnzbSA1h+QoLBDnxdS0qYaIQCyoQszbOz9mzWsWGS0jTPYSV2C4wBFQBVDlhiELkaSEfkwXMerGpa-gEuk-DJNWO8bKkyaiPNabsrwmaRtbSSiKAA).
+A szimulátorban a Be és Ki nyomógombokra lehet interaktívan kattintani az egérmutatóval. 
+Az áramkör módosítható is a szimulátorban.
+
+
+
+## Keresztreteszelés
+
+
+<!---
+
+# Motorvédő kapcsolások
+
+## Motor forgásirányváltás keresztreteszeléssel
+
+# Világítás kapcsolások
+
+## 101
+
+## 102
+
+## 103
+
+## 105
+
+## 106
+
+## 106+6
+
+## 107
+
+-->
