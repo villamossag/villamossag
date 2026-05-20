@@ -98,6 +98,14 @@ Letölthető kapcsolás: [magneskapcs-ketkezes-inditas.txt](https://github.com/v
 
 ## Vészleállítás több helyről
 
+![Alapállapot](images/magneskapcs-veszleallitas-tobb-1.gif)
+
+![Bekapcsolás](images/magneskapcs-veszleallitas-tobb-2.gif)
+
+![Közeli kikapcsolás](images/magneskapcs-veszleallitas-tobb-3.gif)
+
+![Távoli kikapcsolás](images/magneskapcs-veszleallitas-tobb-4.gif)
+
 [Kapcsolás megnyitása Falstad online szimulátorban](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3AWAnC1b0DYQGYCs0NIAmBDQjAdkgoqQmwpFxAWyYFMBaMMAKAGcWADkjgkRYaKIkQEiABcATgFd2vBEWYIROXBO1TcWUQGko0CZxjxi2VHvhJcKEc2sSio62GZguYCS8odSIsBDAsPH0I2SMWEDNrXxs4cAEWGLAEBAysJCxAkCVVXgB3STForDBxYIA3WUghHAxmz2b8qHAmUWxNLq9oXF4ADxYiJHB+7UYA5pyshIBLAB1+AAp5AEO6gHsAGyWASlGWXDYiCnmqWSEIBZyAQT4xhFx6OxZWnA14xceiKcwEJqt8amwwBR7uAcgAZIFCC43cGyChsB4gABypzsSPmTVu0MWYGwONq2AQokpjAp6JhMN4wIg7RazT6vW+vTgsHg2D5FFCaOSUmwg0gEG8OICIChXywFByGIAagBL-gAL327C2+32AFvtvw1vIAG8AIzNawAFux9gBPRSARUB9mVGh1InoQJ1IKcSMyULc2KL9PTYVsALYABwAhrwAOZu1mJ7BCHJeV2Ed25L3GEIeiRRXQeOI5RKwYU2NJjPlB8I-XrZP45QHVvComm-Ig6DF8BqZpP971dSmyNMDIbxkD97DfaepganDDYZkTKeI2R9JujtZKtYAEQAwkDRY1JsDJkRpRiiKKd2tHkfyoXOoXNLmn57C1-Oa7v2zPEmPrlAYRYVDOzRAWBs4EuBwTAZktThAUcQ+maOA+LIhBMCmPwQa6SGgQRKZpvhMTEUwWHkZBRi9PONGjum5T0SQVI6CxcEVOxIFvsE1aQIqxAsJAkyUlo9IALJbHGAB27D8AA1tGkYAMb8AcADPIRBjcKaTCmQa4OmYzvMwl4QOcHiLBiABCajAWxMjcSOPqCARNRVDCzZdMUaivF24ACsIZ4UGJiwmKsGzySa6q2scvBAA).
 A szimulátorban a Be és Ki nyomógombokra lehet interaktívan kattintani az egérmutatóval. 
 A kapcsolás módosítható is a szimulátorban.
@@ -122,8 +130,8 @@ Letölthető kapcsolás: [magneskapcs-keresztreteszeles.txt](https://github.com/
 
 # Falstad áramkör szimulátor
 
-A szimulációk a [Falstad online áramkör szimulátorban](https://www.falstad.com/circuit) készültek.
-A szimulátor [teljes képernyős verzióban](https://falstad.com/circuit/circuitjs.html)
+A szimulációk a [Falstad áramkör szimulátorban](https://www.falstad.com/circuit) készültek.
+A szimulátor [teljes képernyős online verzióban](https://falstad.com/circuit/circuitjs.html)
 és [letölthető offline verzióban](https://falstad.com/circuit/offline/) is használható.
 
 
