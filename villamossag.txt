@@ -2,7 +2,7 @@
 title: Villamosság szimulációk
 #author: Szakszon Péter
 #date: 2026-03-19
-maxwidth: 48em;
+maxwidth: 56em;
 margin-left: 1em;
 margin-right: 1em;
 margin-top: 1em;
