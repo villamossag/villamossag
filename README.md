@@ -1,5 +1,13 @@
 
-Villamosság szimulációk
+# Villamosság szimulációk
+
+Villamossággal kapcsolatos szimulációk.
+
+Weboldal: [https://villamossag.github.io/](https://villamossag.github.io/)
+
+A szimulációk a [Falstad szimulátorban](https://www.falstad.com/circuit) készültek.
+
+Weboldal generálása [Pandoc dokumentumkonvertálóval](https://pandoc.org/):
 
 ```
 pandoc -t chunkedhtml \
@@ -15,3 +23,8 @@ pandoc -t chunkedhtml \
     -o dist \
     villamossag.txt
 ```
+
+Észrevételeket, javaslatokat, kérdéseket szívesen várok az 
+[szp0530@gmail.com](mailto:szp0530@gmail.com) címre.
+
+Szakszon Péter
