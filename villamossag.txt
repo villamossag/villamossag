@@ -7,40 +7,9 @@ margin-left: 1em;
 margin-right: 1em;
 margin-top: 1em;
 margin-bottom: 2em;
-header-includes: |
-  <style>
-  header {
-    margin-bottom: 1em;
-  }
-
-  p {
-    line-height: 1.5;
-  }
-  
-  figure {
-    margin: 0;
-    margin-bottom: 2em;
-  }
-
-  #TOC a {
-    display: inline-block;
-    padding-top: 0.4em;
-    padding-bottom: 0.4em;
-  }
-
-  ol a {
-    display: inline-block;
-    padding-top: 0.4em;
-    padding-bottom: 0.4em;
-  }
-
-  .sitenav .navlink {
-    display: inline-block;
-    padding-top: 0.4em;
-    padding-bottom: 0.4em;
-  }
-  </style>
 ---
+
+
 
 # Mágneskapcsoló kapcsolások
 
@@ -51,7 +20,7 @@ header-includes: |
 1. [Párhuzamos működtetés]
 1. [Keresztreteszelés]
 
-## Öntartó kapcsolás (kikapcsolás magasabb rendű)
+## Öntartó kapcsolás (kikapcsolás magasabb rendű) {#sec:ontarto-ki}
 
 ![Alapállapot](images/magneskapcs-ontarto-ki-magas-1.gif)
 
@@ -66,7 +35,7 @@ A kapcsolás módosítható is a szimulátorban.
 Letölthető kapcsolás: [magneskapcs-ontarto-ki-magas.txt](https://github.com/villamossag/villamossag/blob/main/circuits/magneskapcs-ontarto-ki-magas.txt)
 
 
-## Öntartó kapcsolás (bekapcsolás magasabb rendű) 
+## Öntartó kapcsolás (bekapcsolás magasabb rendű) {#sec:ontarto-be}
 
 ![Alapállapot](images/magneskapcs-ontarto-be-magas-1.gif)
 
@@ -81,7 +50,7 @@ A kapcsolás módosítható is a szimulátorban.
 Letölthető kapcsolás: [magneskapcs-ontarto-be-magas.txt](https://github.com/villamossag/villamossag/blob/main/circuits/magneskapcs-ontarto-be-magas.txt)
 
 
-## Kétkezes indítás
+## Kétkezes indítás {#sec:ketkezes}
 
 ![Alapállapot](images/magneskapcs-ketkezes-inditas-1.gif)
 
@@ -96,7 +65,7 @@ A kapcsolás módosítható is a szimulátorban.
 Letölthető kapcsolás: [magneskapcs-ketkezes-inditas.txt](https://github.com/villamossag/villamossag/blob/main/circuits/magneskapcs-ketkezes-inditas.txt)
 
 
-## Vészleállítás több helyről
+## Vészleállítás több helyről {#sec:veszleallitas}
 
 ![Alapállapot](images/magneskapcs-veszleallitas-tobb-1.gif)
 
@@ -113,8 +82,8 @@ A kapcsolás módosítható is a szimulátorban.
 Letölthető kapcsolás: [magneskapcs-veszleallitas-tobb.txt](https://github.com/villamossag/villamossag/blob/main/circuits/magneskapcs-veszleallitas-tobb.txt)
 
 
-## Párhuzamos működtetés
-
+## Párhuzamos működtetés {#sec:parhuzamos}
+ 
 ![Alapállapot](images/magneskapcs-parhuzamos-1.gif)
 
 ![Kezelő 1 bekapcsolás](images/magneskapcs-parhuzamos-2.gif)
@@ -132,7 +101,7 @@ A kapcsolás módosítható is a szimulátorban.
 Letölthető kapcsolás: [magneskapcs-parhuzamos.txt](https://github.com/villamossag/villamossag/blob/main/circuits/magneskapcs-parhuzamos.txt)
 
 
-## Keresztreteszelés
+## Keresztreteszelés {#sec:keresztreteszeles}
 
 ![Alapállapot](images/magneskapcs-keresztreteszeles-1.gif)
 

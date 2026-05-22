@@ -1,0 +1,32 @@
+<style>
+header {
+  margin-bottom: 1em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+figure {
+  margin: 0;
+  margin-bottom: 2em;
+}
+
+#TOC a {
+  display: inline-block;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+ol a {
+  display: inline-block;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+.sitenav .navlink {
+  display: inline-block;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+</style>
