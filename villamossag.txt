@@ -20,7 +20,7 @@ margin-bottom: 2em;
 1. [Párhuzamos működtetés]
 1. [Keresztreteszelés]
 
-## Öntartó kapcsolás (kikapcsolás magasabb rendű) {#sec:ontarto-ki}
+## Öntartó kapcsolás (kikapcsolás magasabb rendű)
 
 ![Alapállapot](images/magneskapcs-ontarto-ki-magas-1.gif)
 
@@ -35,7 +35,7 @@ A kapcsolás módosítható is a szimulátorban.
 Letölthető kapcsolás: [magneskapcs-ontarto-ki-magas.txt](https://github.com/villamossag/villamossag/blob/main/circuits/magneskapcs-ontarto-ki-magas.txt)
 
 
-## Öntartó kapcsolás (bekapcsolás magasabb rendű) {#sec:ontarto-be}
+## Öntartó kapcsolás (bekapcsolás magasabb rendű) 
 
 ![Alapállapot](images/magneskapcs-ontarto-be-magas-1.gif)
 
@@ -50,7 +50,7 @@ A kapcsolás módosítható is a szimulátorban.
 Letölthető kapcsolás: [magneskapcs-ontarto-be-magas.txt](https://github.com/villamossag/villamossag/blob/main/circuits/magneskapcs-ontarto-be-magas.txt)
 
 
-## Kétkezes indítás {#sec:ketkezes}
+## Kétkezes indítás 
 
 ![Alapállapot](images/magneskapcs-ketkezes-inditas-1.gif)
 
@@ -65,7 +65,7 @@ A kapcsolás módosítható is a szimulátorban.
 Letölthető kapcsolás: [magneskapcs-ketkezes-inditas.txt](https://github.com/villamossag/villamossag/blob/main/circuits/magneskapcs-ketkezes-inditas.txt)
 
 
-## Vészleállítás több helyről {#sec:veszleallitas}
+## Vészleállítás több helyről 
 
 ![Alapállapot](images/magneskapcs-veszleallitas-tobb-1.gif)
 
@@ -82,7 +82,7 @@ A kapcsolás módosítható is a szimulátorban.
 Letölthető kapcsolás: [magneskapcs-veszleallitas-tobb.txt](https://github.com/villamossag/villamossag/blob/main/circuits/magneskapcs-veszleallitas-tobb.txt)
 
 
-## Párhuzamos működtetés {#sec:parhuzamos}
+## Párhuzamos működtetés 
  
 ![Alapállapot](images/magneskapcs-parhuzamos-1.gif)
 
@@ -101,7 +101,7 @@ A kapcsolás módosítható is a szimulátorban.
 Letölthető kapcsolás: [magneskapcs-parhuzamos.txt](https://github.com/villamossag/villamossag/blob/main/circuits/magneskapcs-parhuzamos.txt)
 
 
-## Keresztreteszelés {#sec:keresztreteszeles}
+## Keresztreteszelés 
 
 ![Alapállapot](images/magneskapcs-keresztreteszeles-1.gif)
 
